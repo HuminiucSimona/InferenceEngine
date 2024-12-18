@@ -10,6 +10,8 @@ namespace InferenceEngine
     {
         static void Main(string[] args)
         {
+            AwardEligibilityTest.Run();
+            PollutionGuiltDeterminationTest.Run();
         }
     }
 }

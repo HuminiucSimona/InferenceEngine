@@ -59,9 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AwardEligibilityTest.cs" />
     <Compile Include="Clause.cs" />
     <Compile Include="InferenceEngine.cs" />
     <Compile Include="KnowledgeBase.cs" />
+    <Compile Include="PollutionGuiltDeterminationTest.cs" />
     <Compile Include="Predicate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,7 +85,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-<PropertyGroup>
+  <PropertyGroup>
     <LangVersion>8</LangVersion>
-</PropertyGroup>
+  </PropertyGroup>
 </Project>
