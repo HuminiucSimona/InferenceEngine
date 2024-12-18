@@ -60,9 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AwardEligibilityTest.cs" />
+    <Compile Include="BijectiveFunctionTest.cs" />
     <Compile Include="Clause.cs" />
     <Compile Include="InferenceEngine.cs" />
     <Compile Include="KnowledgeBase.cs" />
+    <Compile Include="PincerLemmaTest.cs" />
     <Compile Include="PollutionGuiltDeterminationTest.cs" />
     <Compile Include="Predicate.cs" />
     <Compile Include="Program.cs" />

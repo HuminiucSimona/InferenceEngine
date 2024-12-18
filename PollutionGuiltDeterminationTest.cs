@@ -90,11 +90,11 @@ namespace InferenceEngine
             // se verifica rezultatul
             if (substitution != null)
             {
-                Console.WriteLine("Propozitia poate fi demonstrata: Compania este vinovată de poluare.");
+                Console.WriteLine("Propozitia poate fi demonstrata: Compania este vinovată de poluare.\n");
             }
             else
             {
-                Console.WriteLine("Propozitia nu poate fi demonstrata: Compania nu este vinovată de poluare.");
+                Console.WriteLine("Propozitia nu poate fi demonstrata: Compania nu este vinovată de poluare.\n");
             }
         }
     }

@@ -12,6 +12,8 @@ namespace InferenceEngine
         {
             AwardEligibilityTest.Run();
             PollutionGuiltDeterminationTest.Run();
+            BijectiveFunctionTest.Run();
+            PincerLemmaTest.Run();
         }
     }
 }

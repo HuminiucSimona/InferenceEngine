@@ -91,11 +91,11 @@ namespace InferenceEngine
             // se afiseaza rezultatul
             if (substitution != null)
             {
-                Console.WriteLine("Propozitia poate fi demonstrata: Persoana este eligibila pentru premiu.");
+                Console.WriteLine("Propozitia poate fi demonstrata: Persoana este eligibila pentru premiu.\n");
             }
             else
             {
-                Console.WriteLine("Propozitia nu poate fi demonstrata: Persoana nu este eligibila pentru premiu.");
+                Console.WriteLine("Propozitia nu poate fi demonstrata: Persoana nu este eligibila pentru premiu.\n");
             }
         }
     }
